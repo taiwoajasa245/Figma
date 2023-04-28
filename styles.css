@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{ 
+background-color: #fff;
+font-family: 'Open Sans', sans-serif;
+color: #000;
+}
+.general-container{ 
+    margin: 0em 3em 0em 2em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+nav{ 
+    width: 100%;
+    height: 6.2em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+nav .svg-1 { 
+    width: 32px;
+}
+.general-container  h1 { 
+    font-size: 32px;
+    margin-bottom: 1.4em ;
+    font-weight: 750;
+    line-height: 38px;
+    margin-top: 2em;
+
+}
+.google-option { 
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 15px;
+}
+ 
+.google-option button { 
+    all: unset;    
+    padding: .6em 3.9em; 
+    line-height: 24px;
+    border-radius: 6px;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: row;
+}
+.head { 
+    height: 60px;
+}
+.google-option button:hover{ 
+    margin-top: -.2em;   
+    transition: .5s;
+}
+.wrapper { 
+    display: grid;
+    place-content: center;
+}
+
+
+.general-container .svg-2 {
+
+    width: 40px; 
+}
+.option-or p { 
+    margin-bottom: 1em;
+    font-size: 16px;
+
+}
+input[type=email]{ 
+    width: 24.9em;
+    height: 3.8em;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 3px solid #000;
+}
+input::placeholder{ 
+    font-size: 16px;
+}
+input[type=email]:focus{ 
+    outline: none;
+    border: 3px solid #5551FF;
+}
+input[type=password]:focus{ 
+    outline: none;
+    border: 3px solid #5551FF;
+}
+input[type=password]{ 
+  width: 24.9em;
+  height: 3.8em;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 3px solid #000;
+}
+
+.summit-btn { 
+    height: 70px;
+}
+button{ 
+    all: unset;
+    font-family:  'Open Sans', sans-serif;
+    padding: .8em 8.8em; 
+    cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #000;
+    margin: .5em 0em 1em 0em ;
+    font-weight: 700;
+   
+}
+button:hover{ 
+    margin-top: .3em;
+    transition: .2s;
+}
+
+.footer{ 
+    font-size: 15px;
+    margin-bottom: 1.5em;
+    line-height: 16px;
+
+}
+.footer a{ 
+    text-decoration: none; 
+    font-size: 15px;
+    color:#5551FF;
+}
+.footer span { 
+    color: RGBA(0, 0, 0, 0.6);
+}
+.cookies a{ 
+    text-decoration: none; 
+    font-size: 12px;
+    color: RGBA(0, 0, 0, 0.6);
+  
+}
+.cookies { 
+    margin-bottom: 1.5em;
+}
+a:hover{ 
+    text-decoration: underline;
+
+}
